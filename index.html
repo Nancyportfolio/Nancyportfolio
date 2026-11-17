@@ -151,6 +151,13 @@
         </div>
       </section>
 
+      <!-- ============ 项目详情（真实素材，由 app.js 按数据渲染） ============ -->
+      <section class="view" data-view="portfolio-detail-project">
+        <div class="page">
+          <div id="project-detail"></div>
+        </div>
+      </section>
+
       <!-- ===================== 知识库 ===================== -->
       <section class="view" data-view="kb">
         <div class="page">
@@ -298,6 +305,12 @@
 
     </main>
   </div>
+
+  <!-- 作品图片放大预览 -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="作品图片预览">
+    <img id="lightbox-img" alt="作品图片预览">
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
